@@ -15,7 +15,7 @@ const statusStyles = {
 
 export default function CharacterCard({ character }: CharacterCardProps) {
   return (
-    <Link href={`/${character.id}`} className="group block">
+    <Link href={`/characters/${character.id}`} className="group block">
       <div className="flex flex-col items-center gap-2 overflow-hidden rounded-2xl bg-card pb-4 h-100 shadow-md transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] hover:shadow-lg">
         <div className="relative h-64 w-full overflow-hidden">
           <Image
