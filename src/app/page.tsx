@@ -3,9 +3,9 @@
 import { useCallback, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
-import CharacterCard from "@/components/CharcterCard";
-import CharacterFilters from "@/components/CharacterFilters";
-import CharacterSearch from "@/components/CharacterSearch";
+import CharacterCard from "@/components/list/CharcterCard";
+import CharacterFilters from "@/components/list/CharacterFilters";
+import CharacterSearch from "@/components/list/CharacterSearch";
 import ErrorComponent from "@/components/ErrorComponent";
 import Loader from "@/components/Loader";
 
@@ -17,7 +17,7 @@ import type {
   CharacterStatus,
 } from "@/types/character.types";
 import { getApiError } from "../../helpers/getApiError";
-import CharacterPagination from "@/components/CharacterPagination";
+import CharacterPagination from "@/components/list/CharacterPagination";
 
 export default function CharactersPage() {
   const searchParams = useSearchParams();
