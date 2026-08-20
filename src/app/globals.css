@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* =========================
+     Brand
+     ========================= */
+
+  --color-primary: #97ce4c;
+
+  --color-secondary: #f0e14a;
+
+  --color-accent: #e89ac7;
+
+  /* =========================
+     Background
+     ========================= */
+
+  --color-background: #e4a788;
+  --color-card: #fff7ef;
+
+  /* =========================
+     Text
+     ========================= */
+
+  --color-foreground: #44281d;
+  --color-muted: #6f493b;
+  --color-muted-foreground: #fff7ef;
+
+  /* =========================
+     Border
+     ========================= */
+
+  --color-border: #44281d;
+  --color-input: #44281d;
+  --color-ring: #97ce4c;
+
+  /* =========================
+     Status
+     ========================= */
+
+  --color-success: #97ce4c;
+  --color-warning: #f0e14a;
+  --color-danger: #d4313c;
+
+  /* =========================
+     Rick & Morty Palette
+     ========================= */
+
+  --color-rick-brown: #44281d;
+  --color-rick-peach: #e4a788;
+  --color-rick-yellow: #f0e14a;
+  --color-rick-green: #97ce4c;
+  --color-rick-pink: #e89ac7;
+
+  /* =========================
+     Shadows
+     ========================= */
+
+  --shadow-sm: 2px 2px 0 #44281d;
+  --shadow-md: 4px 4px 0 #44281d;
+  --shadow-lg: 7px 7px 0 #44281d;
+
+  --shadow-primary: 4px 4px 0 #97ce4c;
+  --shadow-secondary: 4px 4px 0 #f0e14a;
+  --shadow-accent: 4px 4px 0 #e89ac7;
+}
